@@ -1,0 +1,116 @@
+﻿
+
+ /* CONTENEDOR INICIO */
+
+.inicio {
+  position: fixed;
+  text-align: left;
+  color: white;
+  font-family: verdana, sans-serif;
+}
+
+
+/* texto LINEA 1 */
+.linea1 {
+  position: absolute;
+  top: 40px;
+  
+  font-size:25px;
+}
+
+/* texto LINEA 2 */
+.linea2 {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  font-size:50px;
+}
+
+/* texto LINEA 3 */
+.linea3 {
+  position: absolute;
+  top: 210px;
+  left: 150px;
+  font-size:50px;
+}
+
+/* texto LINEA 4 */
+.linea4 {
+  position: absolute;
+  top: 270px;
+  left: 290px;
+  font-size:25px;
+}
+
+
+
+/* CONTENEDOR CONTENIDO */
+
+.contenidotexto {
+  position: fixed;
+  text-align: left;
+  color: black;
+  font-family: verdana, sans-serif;
+  margin: 40px 80px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+
+
+ /* CONTENEDOR ABAJO */
+
+.abajo {
+  position: fixed;
+  color: black;
+  width: 100%;
+  height: auto;
+  padding: 0px 0px;
+  border: 0;
+  top: 380px;
+
+
+  background-color: transparent;
+  text-align: center;
+  margin: 0;
+  font-family: arial, sans-serif;
+  font-size:13px;
+}
+
+.paises {
+  margin:0;
+  color: indigo;
+}
+.email {
+  margin:0;
+  color: indigo;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+ul {
+  list-style-type: none;
+  margin-left: 140px;
+  padding: 15px;
+  overflow: hidden;
+  color: gray;
+  font-size:13px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(255, 255, 153);
+}
+
+.active {
+    background-color: LightGray;
+}
